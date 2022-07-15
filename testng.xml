@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium End2End" parallel= "methods" thread-count="5">
+    <listeners>
+        <listener class-name="testcases.Listeners"/>
+    </listeners>
+    <test name="Demo">
+        <classes>
+            <class name="testcases.LoginScenario"/>
+            <class name="testcases.ValidateCenterText"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

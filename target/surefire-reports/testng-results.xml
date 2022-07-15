@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-15T10:44:18 IST" name="Selenium End2End" finished-at="2022-07-15T10:44:57 IST" duration-ms="39307">
+    <groups>
+    </groups>
+    <test started-at="2022-07-15T10:44:18 IST" name="Demo" finished-at="2022-07-15T10:44:57 IST" duration-ms="39307">
+      <class name="testcases.ValidateCenterText">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:testcases.ValidateCenterText@6d2a209c]" started-at="2022-07-15T10:44:38 IST" name="initTest" finished-at="2022-07-15T10:44:57 IST" duration-ms="19010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="validateText()[pri:0, instance:testcases.ValidateCenterText@6d2a209c]" started-at="2022-07-15T10:44:57 IST" name="validateText" finished-at="2022-07-15T10:44:57 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateCenterText@6d2a209c]" started-at="2022-07-15T10:44:57 IST" name="tearDown" finished-at="2022-07-15T10:44:57 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ValidateCenterText -->
+      <class name="testcases.LoginScenario">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:18 IST" name="initTest" finished-at="2022-07-15T10:44:38 IST" duration-ms="19661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="navigatingHomePage(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:57 IST" name="navigatingHomePage" data-provider="getData" finished-at="2022-07-15T10:44:57 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingHomePage -->
+        <test-method signature="navigatingHomePage(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:57 IST" name="navigatingHomePage" data-provider="getData" finished-at="2022-07-15T10:44:57 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:57 IST" name="tearDown" finished-at="2022-07-15T10:44:57 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginScenario -->
+    </test> <!-- Demo -->
+  </suite> <!-- Selenium End2End -->
+</testng-results>
