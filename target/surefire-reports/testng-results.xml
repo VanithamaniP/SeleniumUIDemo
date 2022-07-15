@@ -1,31 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-15T10:44:18 IST" name="Selenium End2End" finished-at="2022-07-15T10:44:57 IST" duration-ms="39307">
+  <suite started-at="2022-07-15T12:14:21 IST" name="Selenium End2End" finished-at="2022-07-15T12:14:49 IST" duration-ms="27656">
     <groups>
     </groups>
-    <test started-at="2022-07-15T10:44:18 IST" name="Demo" finished-at="2022-07-15T10:44:57 IST" duration-ms="39307">
+    <test started-at="2022-07-15T12:14:21 IST" name="Demo" finished-at="2022-07-15T12:14:49 IST" duration-ms="27656">
       <class name="testcases.ValidateCenterText">
-        <test-method is-config="true" signature="initTest()[pri:0, instance:testcases.ValidateCenterText@6d2a209c]" started-at="2022-07-15T10:44:38 IST" name="initTest" finished-at="2022-07-15T10:44:57 IST" duration-ms="19010" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:testcases.ValidateCenterText@4313f5bc]" started-at="2022-07-15T12:14:31 IST" name="initTest" finished-at="2022-07-15T12:14:48 IST" duration-ms="17527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="validateText()[pri:0, instance:testcases.ValidateCenterText@6d2a209c]" started-at="2022-07-15T10:44:57 IST" name="validateText" finished-at="2022-07-15T10:44:57 IST" duration-ms="21" status="PASS">
+        <test-method signature="validateText()[pri:0, instance:testcases.ValidateCenterText@4313f5bc]" started-at="2022-07-15T12:14:48 IST" name="validateText" finished-at="2022-07-15T12:14:48 IST" duration-ms="23" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES12] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES12] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.ValidateCenterText.validateText(ValidateCenterText.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateCenterText@6d2a209c]" started-at="2022-07-15T10:44:57 IST" name="tearDown" finished-at="2022-07-15T10:44:57 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ValidateCenterText@4313f5bc]" started-at="2022-07-15T12:14:49 IST" name="tearDown" finished-at="2022-07-15T12:14:49 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.ValidateCenterText -->
       <class name="testcases.LoginScenario">
-        <test-method is-config="true" signature="initTest()[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:18 IST" name="initTest" finished-at="2022-07-15T10:44:38 IST" duration-ms="19661" status="PASS">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:testcases.LoginScenario@12e61fe6]" started-at="2022-07-15T12:14:21 IST" name="initTest" finished-at="2022-07-15T12:14:31 IST" duration-ms="9582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTest -->
-        <test-method signature="navigatingHomePage(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:57 IST" name="navigatingHomePage" data-provider="getData" finished-at="2022-07-15T10:44:57 IST" duration-ms="257" status="PASS">
+        <test-method signature="navigatingHomePage(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginScenario@12e61fe6]" started-at="2022-07-15T12:14:48 IST" name="navigatingHomePage" data-provider="getData" finished-at="2022-07-15T12:14:48 IST" duration-ms="169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatingHomePage -->
-        <test-method signature="navigatingHomePage(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:57 IST" name="navigatingHomePage" data-provider="getData" finished-at="2022-07-15T10:44:57 IST" duration-ms="122" status="PASS">
+        <test-method signature="navigatingHomePage(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginScenario@12e61fe6]" started-at="2022-07-15T12:14:48 IST" name="navigatingHomePage" data-provider="getData" finished-at="2022-07-15T12:14:49 IST" duration-ms="119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatingHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginScenario@1ffe63b9]" started-at="2022-07-15T10:44:57 IST" name="tearDown" finished-at="2022-07-15T10:44:57 IST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginScenario@12e61fe6]" started-at="2022-07-15T12:14:49 IST" name="tearDown" finished-at="2022-07-15T12:14:49 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -22,7 +22,7 @@ public class ValidateCenterText extends BaseClass {
     public void validateText()  {
 
      HomePage hp=new HomePage(driver);
-     Assert.assertEquals(hp.getCenterText().getText(),"FEATURED COURSES12"); //This by @findBy annotations
+     Assert.assertEquals(hp.getCenterText().getText(),"FEATURED COURSES"); //This by @findBy annotations
     }
     @AfterTest
     public void tearDown()

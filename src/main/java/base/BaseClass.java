@@ -24,12 +24,15 @@ public class BaseClass {
         FileInputStream fis=new FileInputStream("/Users/vanithamanip/Desktop/IntellijiWorkspace/SeleniumE2EDemo/src/main/java/base/data.properties");
         prop.load(fis);
        String browser= prop.getProperty("browser");
-        if(browser.equalsIgnoreCase("chrome"))
+        if(browser.contains("chrome"))
         {
             WebDriverManager.chromedriver().setup();
 
-
-            driver=new ChromeDriver();
+             ChromeOptions options=new ChromeOptions();
+             if(browser.contains("headless")) {
+                 options.addArguments("--headless");
+             }
+            driver=new ChromeDriver(options);
         }
         else if(browser.equalsIgnoreCase("firefox"))
         {
